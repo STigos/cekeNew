@@ -16,7 +16,7 @@ and open the template in the editor.
     </head>
     <body>
         
-            <nav class="navbar navbar-light  ">
+            <nav class="navbar navbar-light bg-faded ">
                 <a class="navbar-brand" href="#" >Cake-plus</a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item active">
