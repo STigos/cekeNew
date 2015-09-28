@@ -61,20 +61,11 @@ and open the template in the editor.
                     <button type="button" class="btn btn-primary btn-block">Button disabled 2</button>
                 </div>
                 <div class="col-lg-12 ">
-                    <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-primary active">
-                            <input type="checkbox"  autocomplete="off">Checkbox 1(prechecked)
-                        </label>
-                        <label class="btn btn-primary ">
-                            <input type="checkbox" autocomplete="off">Checkbox 2
-                        </label>
-                        <label class="btn btn-primary ">
-                            <input type="checkbox" autocomplete="off">Checkbox 3
-                        </label>
+                    
                     </div>
                 </div>
             </div>
         
-        </div>
+        
     </body>
 </html>
