@@ -16,7 +16,12 @@ and open the template in the editor.
     </head>
     <body>
         
-            <nav class="navbar navbar-light  ">
+            <nav class="navbar navbar-light bg-faded ">
+                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                    &#9776;
+                  </button>
+                  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+    
                 <a class="navbar-brand" href="#" >Cake-plus</a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item active">
@@ -27,7 +32,16 @@ and open the template in the editor.
                             link
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
                 </ul>
+                <form class="form-inline navbar-form pull-right">
+                    <div class="btn-block">
+                    <input type="text" class="form-control " placeholder="Введите текст">
+                    <button class="btn btn-success-outline " type="submit" >Отправить</button>
+                    </div>
+                </form>
             </nav>
         
         <div class="container">
