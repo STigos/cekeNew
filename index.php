@@ -14,19 +14,26 @@ and open the template in the editor.
         <script src="dist/js/bootstrap.js"></script>
         <link rel="stylesheet" href="dist/css/bootstrap.css">        
     </head>
-    <body>
-        
-            <nav class="navbar navbar-light bg-faded ">
+    <body style="background-color: green">
+        <div class="collapse" id="exCollapsingNavbar">
+            <div class="bg-inverse p-a">
+                <h4>Скрытый контент</h4>
+                <span class="text-muted">Открывается только в NAVBAR</span> <ul class="nav navbar-nav">
+                    
+            </div>
+        </div>
+        <nav class="navbar navbar-light " style="background-color: transparent">
+                <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                    &#9776;
+                 </button>
                 <a class="navbar-brand" href="#" >Cake-plus</a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item" >
-                        <a class="nav-link" href="#">
-                            link
-                        </a>
-                    </li>
+                    </li>  <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>                   
+                </ul>                 
                 </ul>
             </nav>
         
@@ -34,7 +41,13 @@ and open the template in the editor.
             <div class="row">
                 
                 <div class="col-lg-3 col-md-6 col-sm-12 ">
-                    <a href="#" role="button" class="btn btn-primary btn-block ">LINK 1</a>
+                   
+                    <form>
+                        <fieldset class="form-group">
+                            <label for="exampleInputEmail1">Введите ваш Email</label>
+                            <input type="email" class="form-control" placeholder="Адресс вводить здесь">
+                        </fieldset>    
+                    </form>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 ">
                     <a href="#" role="button" class="btn btn-primary btn-block disabled ">LINK 2</a>
@@ -46,18 +59,7 @@ and open the template in the editor.
                 <div class="col-lg-3 col-md-6 col-sm-12 ">
                     <button type="button" class="btn btn-primary btn-block">Button disabled 2</button>
                 </div>
-                <div class="col-lg-12 ">
-                    <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-primary active">
-                            <input type="checkbox"  autocomplete="off">Checkbox 1(prechecked)
-                        </label>
-                        <label class="btn btn-primary ">
-                            <input type="checkbox" autocomplete="off">Checkbox 2
-                        </label>
-                        <label class="btn btn-primary ">
-                            <input type="checkbox" autocomplete="off">Checkbox 3
-                        </label>
-                    </div>
+                
                 </div>
             </div>
         
