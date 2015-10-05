@@ -4511,4 +4511,12 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-print .hidden-print {
     display: none !important; } }
 
+/* 
+    Created on : 05.10.2015, 12:44:40
+    Author     : stigos
+*/
+.imageBorder {
+  border-image: url(images/bord-bottom-350.png);
+  border-image-repeat: round; }
+
 /*# sourceMappingURL=bootstrap.css.map */

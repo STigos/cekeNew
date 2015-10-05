@@ -14,7 +14,7 @@ and open the template in the editor.
         <script src="dist/js/bootstrap.js"></script>
         <link rel="stylesheet" href="dist/css/bootstrap.css">        
     </head>
-    <body style="background-color: green">
+    <body>
         <div class="collapse" id="exCollapsingNavbar">
             <div class="bg-inverse p-a">
                 <h4>Скрытый контент</h4>
@@ -36,8 +36,9 @@ and open the template in the editor.
                 </ul>                 
                 </ul>
             </nav>
-        
+        <h1 class="text-center bor">Cake-plus</h1>
         <div class="container">
+            
             <div class="row">
                 
                 <div class="col-lg-3 col-md-6 col-sm-12 ">
